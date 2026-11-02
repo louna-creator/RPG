@@ -1,0 +1,26 @@
+﻿  Archetype.cpp
+  Elfes.cpp
+C:\Users\jgueneron\source\repos\RPG1\RPG1\Archetype.h(5,7): error C2039: 'string' n'est pas membre de 'std'
+  (compiler le fichier source 'Archetype.cpp')
+      C:\Users\jgueneron\source\repos\RPG1\RPG1\predefined C++ types (compiler internal)(348,11):
+      voir la déclaration de 'std'
+  
+C:\Users\jgueneron\source\repos\RPG1\RPG1\Archetype.h(5,14): error C2653: 'Elfes' : n'est pas un nom de classe ni d'espace de noms
+  (compiler le fichier source 'Archetype.cpp')
+  
+C:\Users\jgueneron\source\repos\RPG1\RPG1\Archetype.h(5,21): error C3646: 'getname' : spécificateur de substitution inconnu
+  (compiler le fichier source 'Archetype.cpp')
+  
+C:\Users\jgueneron\source\repos\RPG1\RPG1\Archetype.h(5,28): error C2059: erreur de syntaxe : '('
+  (compiler le fichier source 'Archetype.cpp')
+  
+C:\Users\jgueneron\source\repos\RPG1\RPG1\Archetype.h(5,31): error C2334: jetons inattendus avant '{' ; corps apparent de la fonction ignoré
+  (compiler le fichier source 'Archetype.cpp')
+  
+C:\Users\jgueneron\source\repos\RPG1\RPG1\Archetype.h(3,1): error C1075: '{' : jeton correspondant introuvable
+  (compiler le fichier source 'Archetype.cpp')
+  
+  Mage.cpp
+  Race.cpp
+  Statistiques.cpp
+  Génération de code en cours...
