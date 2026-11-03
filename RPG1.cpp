@@ -26,7 +26,7 @@ int main()
 
     TraitsDePersonnalite TraitsDePersonnalite;
     std::string Personnalite = "";
-    std::cout << "Choisissez votre personnalite\n";
+    std::cout << "Choisissez votre personnalite, prenez les caracteristiques en choisissant entre mefiant, impetueux, calme, courageux, empathiques\n";
     std::cin >> Personnalite;
     TraitsDePersonnalite.Verif(Personnalite);
 }

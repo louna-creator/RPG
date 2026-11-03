@@ -17,23 +17,6 @@ C:\Users\jgueneron\Documents\GitHub\RPG\RPG1\TraitsDePersonnalite.h(13,11): erro
 C:\Users\jgueneron\Documents\GitHub\RPG\RPG1\TraitsDePersonnalite.h(13,48): error C2238: jetons inattendus avant ';'
   (compiler le fichier source 'Character.cpp')
   
-  Race.cpp
-C:\Users\jgueneron\Documents\GitHub\RPG\RPG1\Race.cpp(51,21): error C2084: la fonction 'std::string Humain::getname(void)' a déjà un corps
-      C:\Users\jgueneron\Documents\GitHub\RPG\RPG1\Race.cpp(27,21):
-      voir la définition précédente de 'getname'
-  
-C:\Users\jgueneron\Documents\GitHub\RPG\RPG1\Race.cpp(54,34): error C2084: la fonction 'std::vector<std::string,std::allocator<std::string>> Humain::abilities(void)' a déjà un corps
-      C:\Users\jgueneron\Documents\GitHub\RPG\RPG1\Race.cpp(30,34):
-      voir la définition précédente de 'abilities'
-  
-C:\Users\jgueneron\Documents\GitHub\RPG\RPG1\Race.cpp(57,34): error C2084: la fonction 'std::vector<std::string,std::allocator<std::string>> Humain::forbiddenabilities(void)' a déjà un corps
-      C:\Users\jgueneron\Documents\GitHub\RPG\RPG1\Race.cpp(33,34):
-      voir la définition précédente de 'forbiddenabilities'
-  
-C:\Users\jgueneron\Documents\GitHub\RPG\RPG1\Race.cpp(69,34): error C2084: la fonction 'std::vector<std::string,std::allocator<std::string>> Humain::forbiddenabilities(void)' a déjà un corps
-      C:\Users\jgueneron\Documents\GitHub\RPG\RPG1\Race.cpp(57,34):
-      voir la définition précédente de 'forbiddenabilities'
-  
   RPG1.cpp
 C:\Users\jgueneron\Documents\GitHub\RPG\RPG1\TraitsDePersonnalite.h(9,11): error C2143: erreur de syntaxe : absence de ';' avant '*'
   (compiler le fichier source 'RPG1.cpp')

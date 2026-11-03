@@ -48,17 +48,6 @@ std::vector<std::string> Fairy::forbiddenabilities() {
 
 
 
-std::string Humain::getname() {
-	return "Humain";
-}
-std::vector<std::string> Humain::abilities() {
-	return { "speed" };
-}
-std::vector<std::string> Humain::forbiddenabilities() {
-	return { "mage", "voleur" };
-}
-
-
 
 std::string Orc::getname() {
 	return "Orc";
@@ -66,6 +55,6 @@ std::string Orc::getname() {
 std::vector<std::string> Orc::abilities() {
 	return { "earthquake" };
 }
-std::vector<std::string> Humain::forbiddenabilities() {
+std::vector<std::string> Orc::forbiddenabilities() {
 	return { "mage", "guerisseur" };
 }
