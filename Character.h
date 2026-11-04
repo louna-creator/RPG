@@ -6,6 +6,8 @@ class Character
 {
 	std::string name ;
 	std::string Personnalite;
+	std::string Race;
+
 public: 
 	Character();
 	std::string getname();
@@ -21,8 +23,10 @@ public:
 	void setpoids(int& value);
 
 	std::string getpersonnalite();
-	Character* setpersonnalite(std::string& value);
+	void setpersonnalite(std::string& value);
 
+	std::string getrace();
+	void setrace(std::string& value);
 
 
 };

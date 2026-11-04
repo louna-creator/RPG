@@ -2,7 +2,8 @@
 #include <algorithm>
 #include "Character.h"
 
-std::vector<std::string> Personnalite = { "mefiant", "impetueux", "calme", "courageux", "empathiques" };
+
+std::vector<std::string> Personnalite = { "mefiant", "impetueux", "calme", "courageux", "empathique" };
 
 bool TraitsDePersonnalite::Verif(std::string userverif) {
 	if (std::find(Personnalite.begin(), Personnalite.end(), userverif) == Personnalite.end()) {

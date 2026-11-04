@@ -1,4 +1,6 @@
 #include "Race.h"
+#include "Character.h"
+#include <algorithm>
 
 std::string Elfes::getname() {
 	return "Elfes";
@@ -57,4 +59,16 @@ std::vector<std::string> Orc::abilities() {
 }
 std::vector<std::string> Orc::forbiddenabilities() {
 	return { "mage", "guerisseur" };
+}
+
+std::vector<std::string> ChoiceRace = { "Elfe", "Fee", "Humain", "Nain", "Orc" };
+
+bool Race::Verif(std::string userverif) {
+	if (std::find(Race.begin(), Race.end(), userverif) == Race.end()) {
+		Race::character->setrace(userverif);
+		return true;
+	}
+	else {
+		return false;
+	}
 }

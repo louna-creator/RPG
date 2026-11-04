@@ -3,6 +3,8 @@ Character::Character() {
 	name = "";
 	taille = 0;
 	poids = 0;
+	Personnalite = "";
+	Race = "";
 }
 std::string Character::getname() {
 	return name;
@@ -27,6 +29,15 @@ int Character::getpoids() {
 	std::string Character::getpersonnalite() {
 		return Personnalite;
 	}
-	Character* Character::setpersonnalite(std::string & value) {
+	void Character::setpersonnalite(std::string& value) {
 			Personnalite = value;
-		}
+	}
+	
+	std::string Character::getrace() {
+		return Race;
+	}
+	void Character::setrace(std::string& value) {
+		Race = value;
+	}
+	
+	

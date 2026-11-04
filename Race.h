@@ -2,6 +2,18 @@
 #include <vector>
 #include <string>
 #include "Race.h"
+#include "Character.h"
+
+class Character;
+class Race {
+
+	Character* character = nullptr;
+	std::vector<std::string> Race;
+	public:
+	bool Verif(std::string userverif);
+
+
+};
 	class Elfes 
 	{
 		Elfes();
