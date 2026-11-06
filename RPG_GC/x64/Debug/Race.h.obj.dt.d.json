@@ -1,7 +1,7 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\jgueneron\\source\\repos\\rpg_gc\\rpg_gc\\race.h",
+        "Source": "c:\\users\\jgueneron\\documents\\github\\rpg\\rpg_gc\\race.h",
         "ProvidedModule": "",
         "Includes": [
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\vector",

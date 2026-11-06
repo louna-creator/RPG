@@ -72,3 +72,18 @@ bool Race::Verif(std::string userverif) {
 		return true;
 	}
 }
+
+std::string Race::getname()
+{
+	return std::string();
+}
+
+std::vector<std::string> Race::abilities()
+{
+	return std::vector<std::string>();
+}
+
+std::vector<std::string> Race::forbiddenabilities()
+{
+	return std::vector<std::string>();
+}

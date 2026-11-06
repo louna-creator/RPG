@@ -1,7 +1,7 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\jgueneron\\source\\repos\\rpg_gc\\rpg_gc\\character.h",
+        "Source": "c:\\users\\jgueneron\\documents\\github\\rpg\\rpg_gc\\character.h",
         "ProvidedModule": "",
         "Includes": [
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\string",
@@ -83,10 +83,10 @@
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\xpolymorphic_allocator.h",
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\cctype",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.28000.0\\ucrt\\ctype.h",
-            "c:\\users\\jgueneron\\source\\repos\\rpg_gc\\rpg_gc\\traitsdepersonnalite.h",
+            "c:\\users\\jgueneron\\documents\\github\\rpg\\rpg_gc\\traitsdepersonnalite.h",
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\vector",
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\__msvc_bit_utils.hpp",
-            "c:\\users\\jgueneron\\source\\repos\\rpg_gc\\rpg_gc\\race.h"
+            "c:\\users\\jgueneron\\documents\\github\\rpg\\rpg_gc\\race.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
